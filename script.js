@@ -2,9 +2,9 @@
 
 // Images for computer choices
 const computerImages = [
-  "images/rock.png",
-  "images/paper.png",
-  "images/scissors.png",
+  "images/rock.PNG",
+  "images/paper.PNG",
+  "images/scissors.PNG",
 ];
 
 // Possible game outcomes
