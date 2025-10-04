@@ -8,29 +8,39 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div id="game-container">
+        <header>
+            <h2>Rock Paper Scissors Game!</h2>
+        </header>
 
-    <header>
-        <h1>Rock Paper Scissors Game!</h1>
-    </header>
+        <section class="p-c-section">
+            <div>
+                <img src="images/rock.PNG" alt="rock image" class="player-img" data-name="rock">
+                <img src="images/paper.PNG" alt="paper image" class="player-img" data-name="paper">
+                <img src="images/scissors.PNG" alt="scissors image" class="player-img" data-name="scissors">
+            </div>
+            <h2>Your Throw</h2>
+        </section>
+        
+        <section class="p-c-section">
+            <img src="images/question-mark.PNG" alt="" id="computer-img">
+            <h2>Computer Throw</h2>
+        </section>
 
-    <section class="p-c-section">
-        <div>
-            <img src="images/rock.PNG" alt="rock image" class="player-img" data-name="rock">
-            <img src="images/paper.PNG" alt="paper image" class="player-img" data-name="paper">
-            <img src="images/scissors.PNG" alt="scissors image" class="player-img" data-name="scissors">
-        </div>
-        <h2>Your Throw</h2>
-    </section>
-    
-    <section class="p-c-section">
-        <img src="images/question-mark.PNG" alt="" id="computer-img">
-        <h2>Computer Throw</h2>
-    </section>
+        <section id="score-section">
+            <h2 id="result">Results:</h2>
+            <button id="play-again">Play Again</button>
+        </section>
+    </div>
+    <div id="scoreboard">
+        <h2>Scoreboard</h2>
+        <p>Player Wins: <span id="player-score">0</span></p>
+        <p>Computer Wins: <span id="computer-score">0</span></p>
+        <p>Ties: <span id="ties">0</span></p>
 
-    <section id="score-section">
-        <h2 id="result">Results:</h2>
-        <button>Play Again</button>
-    </section>
+        <button id="reset-score">Reset Score</button>
+        
+    </div>
     
 </body>
 </html>
